@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /*Pagina para un patron: dooda.dev -> Patter generator*/
+    background: url('./img/fondos/fondo1.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+#Rojo{
+    background-color: rgba(173, 67, 67, 0.93);
+}
+#Verde{
+    background-color: rgba(67, 95, 173, 0.93);
+}
+#Azul{
+    background-color: rgba(157, 173, 67, 0.93);
+}
+#facebook{
+    background-image: url("./img/fondos/facebook.jpg");
+}
+#instagram{
+    background-image: url("./img/fondos/isnta.png");
+}
+#twitter{
+    background-image: url("./img/fondos/twitter.png");
+}
+#youtube{
+    background-image: url("./img/fondos/youtube1.png");
+}
+
+.wrap{
+    width: 950px;
+    margin: 20px auto;
+    background-color: rgba(224, 226, 228, 0.295);
+    padding: 30px
+}
+
+.wrap #header #titulo{
+    text-align: center;
+    padding: 10px 0px;
+    background-color: rgb(104, 104, 104);
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(214, 214, 214);
+}
+
+nav{
+    padding: 0px;
+    background-color: rgb(189, 188, 188);  
+}
+
+#nav{
+    margin-top: 20px;  
+    margin-bottom: 20px;
+}
+
+nav ul li{
+    display: inline-flex;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav ul{
+    margin-bottom: 0px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+.slide-section img{
+    width: 100%;
+    height: auto;
+}
+
+.caja-lateral button{
+    background-color: rgb(146, 144, 142);
+    padding: 5px 10px;
+    font-size: 16px;
+    border-color: rgb(146, 144, 142);
+    color: aliceblue;
+}
+
+.barra-lateral h4{
+    color: rgb(255, 123, 0);
+}
+
+.caja-lateral h5{
+    color: cadetblue;
+    font-size: 15px;
+}
+
+.caja-lateral p{
+    color: white;
+}
+
+.caja-lateral button{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.caja-lateral{
+    margin-top: 8%;
+}
+
+.perfil-caja{
+    margin-top: 27%;
+    text-align: center;
+}
+
+.perfil-section h3{
+    background-color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+}
+
+
+.perfil-caja p{
+    color: white;
+    text-align: justify;
+    padding: 0px 20px;
+    font-size: 13px;
+}
+
+.btnIzquierda{
+    position: fixed;
+    margin-top: 20%;
+    background-color: rgba(102, 101, 101, 0.26);
+}
+
+.btnIzq{
+    padding: 5px;
+}
+
+.btnIzquierda button{
+    width: 40px;
+    background-color: rgb(114, 180, 59);
+    border: 2px groove rgb(175, 177, 173);
+    display: list-item;
+}
+
+.btnDerecha{
+    position: fixed;
+    margin-top: 20%;
+    margin-left: 96.8% !important;
+}
+
+.btnDerecha button{
+    width: 50px;
+    background-color: rgb(189, 207, 201);
+    border: 2px groove rgb(150, 146, 146);
+    display: list-item;
+}
+
+#formulario h6{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+#formulario{
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#formulario input{
+    width: 100%;
+}
+
+#formulario h6{
+    text-align: left;
+}
+
+#formulario input[type=submit]{
+    width: 30%;
+    margin-top: 10px;
+    background-color: rgba(70, 146, 84, 0.842);
+    border: 1px white groove;
+    color: white;
+    padding: 5px;
+}
+
+
+
+#footer h5{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+#footer a{
+    color: white;
+}
+
+/* BOTONES NAV*/
+.reloj h1{
+    border: 5px white dashed;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+    width: 40%;
+    margin-left: 30%;
+}
+
+#panel, #flip {
+    padding: 5px;
+    background-color: #e5eecc;
+    text-align: justify;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+    padding: 10px;
+    display: none;
+  }
+
+  #panel2, #flip2 {
+    padding: 5px;
+    text-align: justify;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel2 {
+    padding: 10px;
+    display: none;
+  }
+
+  #panel3, #flip3 {
+    padding: 5px;
+    text-align: justify;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel3 {
+    padding: 10px;
+    display: none;
+  }
+
+  .contacto #formulario input{
+    width: 50%;
+  }
+
+  .contacto #formulario input[type=submit], input[type=button]{
+    width: 30%;
+    margin-top: 10px;
+    background-color: rgba(70, 146, 84, 0.842);
+    border: 1px white groove;
+    color: white;
+    padding: 5px;
+    }
+
+
+
+.contacto p{
+    background-color: rgb(233, 21, 21);
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+@media (max-width: 913px) {
+    .perfil-caja{
+        margin-top: 2% !important;
+    }
+
+    .contacto #formulario input[type=button]{
+        margin-top: 10px;
+        width: 20%;
+    }
+
+    .btnIzquierda{
+        margin-top: 43vh;
+    }
+
+    .btnDerecha{
+        margin-top: 43vh;
+    }
+
+}
